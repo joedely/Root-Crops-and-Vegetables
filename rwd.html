@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Crops & Vegetables</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 3px solid #2e7d32;
+            margin: 20px;
+        }
+
+        .sidebar {
+            flex: 3;
+            background:#ffffff; 
+            padding: 5px;
+            min-width: 100px;
+            border: 3px solid #2e7d32;
+        }
+        .content {
+            flex: 3;
+            padding: 15px;
+            background: #ffffff;
+            border: 3px solid #2e7d32;
+        }
+
+        footer {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 28px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+               grid-template-columns: repeat(2, 1fr);;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Root Crops & Vegetables</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Root Crops</h3>
+            <ul>
+                <li>Carrots</li>
+                <li>Potatoes</li>
+                <li>Sweet Potatoes</li>
+                <li>Radish</li>
+                <li>Turnips</li>
+            </ul>
+
+            <h3>Green Vegetables</h3>
+            <ul>
+                <li>Spinach</li>
+                <li>Cabbage</li>
+                <li>Lettuce</li>
+                <li>Broccoli</li>
+                <li>Green Beans</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>About Root Crops</h2>
+            <p>
+                Root crops grow underground and are rich in carbohydrates, fiber,
+                and important vitamins. They are staple foods in many countries.
+            </p>
+
+            <h2>About Green Vegetables</h2>
+            <p>
+                Green leafy and pod vegetables are excellent sources of vitamins,
+                minerals, and antioxidants. They help boost the immune system and
+                keep the body healthy.
+            </p>
+
+            <h2>Why Vegetables Matter</h2>
+            <p>
+                Both root crops and green vegetables are essential for a balanced diet.
+                Farmers grow them to support nutrition, food security, and healthy living.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Eating my way to a healthier me!</p>
+    </footer>
+
+</body>
+</html>
